@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1650651064270.jpg" />
+    <None Remove="1650917253573.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1650651064270.jpg" />
+    <Resource Include="1650917253573.jpg" />
+  </ItemGroup>
+
+</Project>

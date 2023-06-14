@@ -1,0 +1,34 @@
+﻿<Window x:Class="Calculadora23CVWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora23CVWpf"
+        mc:Ignorable="d"
+        Title="calculadora" Height="383" Width="340">
+    <Grid Width="340" Height="383">
+        <Grid.Background>
+            <ImageBrush ImageSource="/1650917253573.jpg"/>
+        </Grid.Background>
+        <Button x:Name="_7" Content="7" HorizontalAlignment="Left" Margin="40,49,0,0" VerticalAlignment="Top" Width="25" FontFamily="Yu Gothic Light" Height="25"/>
+        <Button x:Name="_4" Content="4" HorizontalAlignment="Left" Margin="40,84,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="25" FontFamily="Yu Gothic Light" Height="25"/>
+        <Button x:Name="_1" Content="1" HorizontalAlignment="Left" Margin="40,119,0,0" VerticalAlignment="Top" Width="25" FontFamily="Yu Gothic Light" Height="25"/>
+        <Button x:Name="_0" Content="0" HorizontalAlignment="Left" Margin="40,149,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="_0_Click"/>
+        <Button x:Name="_3" Content="2" HorizontalAlignment="Left" Margin="90,119,0,0" VerticalAlignment="Top" Click="Button_Click" Width="25" Height="25"/>
+        <Button x:Name="_5" Content="5" HorizontalAlignment="Left" Margin="90,84,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic Light" Width="25" Height="25"/>
+        <Button x:Name="_8" Content="8" HorizontalAlignment="Left" Margin="90,49,0,0" VerticalAlignment="Top" Width="25" Height="25"/>
+        <Button x:Name="_2" Content="3" HorizontalAlignment="Left" Margin="135,119,0,0" VerticalAlignment="Top" Width="25" Click="_2_Click" Height="25" RenderTransformOrigin="0,0.381"/>
+        <Button x:Name="_6" Content="6" HorizontalAlignment="Left" Margin="135,84,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic Light" Width="25" Height="25"/>
+        <Button x:Name="_9" Content="9" HorizontalAlignment="Left" Margin="135,49,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic Light" Width="25" Height="25"/>
+        <Button x:Name="__3" Content="." HorizontalAlignment="Left" Margin="140,149,0,0" VerticalAlignment="Top" Height="30" Width="30"/>
+        <Button x:Name="C" Content="C" HorizontalAlignment="Left" Margin="180,49,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic Light" Width="25" Height="25"/>
+        <Button x:Name="__5" Content="*" HorizontalAlignment="Left" Margin="180,84,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="1.25,0.477" Height="25"/>
+        <Button x:Name="__4" Content="+" HorizontalAlignment="Left" Margin="180,119,0,0" VerticalAlignment="Top" Width="25" Height="25" RenderTransformOrigin="0.6,-0.019"/>
+        <Button x:Name="__2" Content="=" HorizontalAlignment="Left" Margin="175,149,0,0" VerticalAlignment="Top" Height="30" Width="70" Click="Button_Click_2"/>
+        <Button x:Name="__1" Content="-" HorizontalAlignment="Left" Margin="220,120,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic Light" RenderTransformOrigin="-3.332,0.625" Width="25" Height="24"/>
+        <Button x:Name="CE" Content="CE" HorizontalAlignment="Left" Margin="220,49,0,0" VerticalAlignment="Top" FontFamily="Yu Gothic Light" RenderTransformOrigin="0.533,0.41" Width="25" Height="25"/>
+        <Button x:Name="__" Content="/" HorizontalAlignment="Left" Margin="220,84,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.252,0.477" FontFamily="Yu Gothic Light" Width="25" Height="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="40,14,0,0" TextWrapping="Wrap" Text="T" VerticalAlignment="Top" Width="210" Height="30" TextChanged="TextBox_TextChanged"/>
+    </Grid>
+</Window>
+    
